@@ -11,8 +11,7 @@ our = config.She + config.Me
 # 幸运
 def luck(count,max_num):
     num_list = []
-    count = count
-    max_num = max_num
+
     # 循环一万遍，一遍代表一年
     for i in range(0,10000):
         # 从“我们”中依次取出2个数组合成1个幸运数
